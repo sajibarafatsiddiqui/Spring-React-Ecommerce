@@ -1,0 +1,34 @@
+mui library
+npm install @mui/material @emotion/react @emotion/styled
+
+mui icons
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
+Tailwind
+npm install -D tailwindcss
+npx tailwindcss init
+
+tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+src/index.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+create a navigation page using store navigation from tailwind component
+add it to app.js
+npm install @heroicons/react
+npm i @headlessui/react
+
+npm i react-alice-carousel
